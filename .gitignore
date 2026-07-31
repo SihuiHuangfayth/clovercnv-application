@@ -1,0 +1,41 @@
+# Large data files
+*.bam
+*.bam.bai
+*.bai
+*.cram
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+*.vcf
+*.vcf.gz
+*.tbi
+*.bw
+*.bigwig
+*.bed.gz
+
+# Output directories
+*_output/
+output/
+results/
+data/raw/
+data/processed/
+
+# Environment / system files
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# Editor
+.vscode/
+.idea/
+*.swp
