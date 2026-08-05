@@ -1,0 +1,6 @@
+Chr	Start	End	Length	Type	ID	Var1	Var2	Var3	IsKnown	QScore	NumReads
+PfDd2_05	888001	970000	81999	dup	1	Bulk	K	bulk	FALSE	1	1
+PfDd2_06	53645	127600	73955	dup	2	Bulk	K	bulk	FALSE	1	1
+PfDd2_10	1480089	1542965	62876	dup	3	Bulk	K	bulk	FALSE	1	1
+PfDd2_11	1860119	1882897	22778	dup	4	Bulk	K	bulk	FALSE	1	1
+PfDd2_12	946840	951821	4981	dup	5	Bulk	K	bulk	FALSE	1	1
