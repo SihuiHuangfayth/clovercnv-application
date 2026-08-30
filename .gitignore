@@ -23,7 +23,7 @@
 output/
 results/
 !01_benchmarking/results/
-data/raw/
+!02_in_vivo_star/results/
 data/processed/
 
 # Environment / system files

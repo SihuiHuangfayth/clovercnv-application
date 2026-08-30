@@ -1,0 +1,1 @@
+SRR520471	PON	NA	3D7	NA	CLOverCNV upstream coverage QC failed (missing_raw_or_corr_dir); only 16 total segments called vs 400-500 typical	Cowell2018	excluded post-CLOverCNV run; not a data quality issue at alignment level
