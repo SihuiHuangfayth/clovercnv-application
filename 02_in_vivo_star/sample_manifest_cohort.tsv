@@ -1,0 +1,41 @@
+srr	clone_name	cohort	cohort_role	background	aligned_to	coverage_x	parent_ic50_uM	clone_ic50_uM	fold_shift	source_paper	selection_method	platform	notes
+SRR26204724	Goldberg-Sulo-3D7-poolD	Suloctidil	baseline_validation	3D7	3D7	189.3	0.147	0.234	1.6	Luth2024	ramp-up	NovaSeq6000	
+SRR26204725	Goldberg-Sulo-3D7-poolB	Suloctidil	baseline_validation	3D7	3D7	178.2	0.147	0.255	1.7	Luth2024	ramp-up	NovaSeq6000	
+SRR26204726	Goldberg-Sulo-3D7-poolA	Suloctidil	baseline_validation	3D7	3D7	255.7	0.147	0.190	1.3	Luth2024	ramp-up	NovaSeq6000	
+SRR26204716	Goldberg-Sulo-Dd2-poolD	Suloctidil	baseline_validation	Dd2	Dd2	194.4	0.135	0.137	1.0	Luth2024	ramp-up	NovaSeq6000	
+SRR26204718	Goldberg-Sulo-Dd2-poolC	Suloctidil	baseline_validation	Dd2	Dd2	203.5	0.135	0.250	1.9	Luth2024	ramp-up	NovaSeq6000	
+SRR26204719	Goldberg-Sulo-Dd2-poolA	Suloctidil	baseline_validation	Dd2	Dd2	124.0	0.135	0.177	1.3	Luth2024	ramp-up	NovaSeq6000	
+SRR26204720	Goldberg-Sulo-Dd2polδ-CH7	Suloctidil	baseline_validation	Dd2-polδ	Dd2	204.2	0.092	0.206	2.2	Luth2024	ramp-up	NovaSeq6000	pol-δ hypermutator
+SRR26204721	Goldberg-Sulo-Dd2polδ-CD9	Suloctidil	baseline_validation	Dd2-polδ	Dd2	177.2	0.092	0.376	4.1	Luth2024	ramp-up	NovaSeq6000	pol-δ hypermutator
+SRR26204722	Goldberg-Sulo-Dd2polδ-BG6	Suloctidil	baseline_validation	Dd2-polδ	Dd2	196.7	0.092	0.267	2.9	Luth2024	ramp-up	NovaSeq6000	pol-δ hypermutator
+SRR26204723	Goldberg-Sulo-Dd2polδ-BE11	Suloctidil	baseline_validation	Dd2-polδ	Dd2	216.7	0.092	0.291	3.2	Luth2024	ramp-up	NovaSeq6000	pol-δ hypermutator
+SRR26204608	MMV006901-3D7-2C8	MMV006901	baseline_validation	3D7	3D7	59.5	0.159	0.310	1.9	Luth2024	ramp-up	HiSeq2500	
+SRR26204609	MMV006901-3D7-2F9	MMV006901	baseline_validation	3D7	3D7	57.4	0.159	0.268	1.7	Luth2024	ramp-up	HiSeq2500	
+SRR26204610	MMV006901-3D7-5D5	MMV006901	baseline_validation	3D7	3D7	60.8	0.159	0.562	3.5	Luth2024	ramp-up	HiSeq2500	re-downloaded
+SRR26204611	MMV006901-3D7-5F11	MMV006901	baseline_validation	3D7	3D7	62.2	0.159	0.495	3.1	Luth2024	ramp-up	HiSeq2500	test-run expected-positive
+SRR26204612	MMV006901-3D7-5G4	MMV006901	baseline_validation	3D7	3D7	70.2	0.159	0.439	2.8	Luth2024	ramp-up	HiSeq2500	pfabci3 CNV rescued (1/8)
+SRR26204613	MMV006901-3D7-6B11	MMV006901	baseline_validation	3D7	3D7	69.0	0.159	0.379	2.4	Luth2024	ramp-up	HiSeq2500	
+SRR26204614	MMV006901-3D7-6B6	MMV006901	baseline_validation	3D7	3D7	62.4	0.159	0.402	2.5	Luth2024	ramp-up	HiSeq2500	
+SRR26204615	MMV006901-3D7-6H3	MMV006901	baseline_validation	3D7	3D7	78.2	0.159	0.392	2.5	Luth2024	ramp-up	HiSeq2500	
+SRR7716417	DSM267-F2-2-C8	DSM267	ecDNA_discovery	3D7	3D7	75.9	0.00218	0.357	164	Mandt2019	high-dose-intermittent	HiSeq2500	high fold-shift
+SRR7716418	DSM267-F2-1-D3	DSM267	ecDNA_discovery	3D7	3D7	88.3	0.00218	0.0350	16	Mandt2019	high-dose-intermittent	HiSeq2500	
+SRR7716419	DSM267-F2-1-C3	DSM267	ecDNA_discovery	3D7	3D7	88.8	0.00218	0.0386	18	Mandt2019	high-dose-intermittent	HiSeq2500	
+SRR7716421	DSM267-F3-2-F4	DSM267	ecDNA_discovery	3D7	3D7	83.5	0.00218	0.952	437	Mandt2019	high-dose-intermittent	HiSeq2500	HIGHEST DSM267 fold-shift
+SRR7716422	DSM267-F3-1-D9	DSM267	ecDNA_discovery	3D7	3D7	90.2	0.00218	0.0128	5.9	Mandt2019	high-dose-intermittent	HiSeq2500	
+SRR7716423	DSM267-F3-1-C9	DSM267	ecDNA_discovery	3D7	3D7	74.6	0.00218	0.0172	7.9	Mandt2019	high-dose-intermittent	HiSeq2500	re-prefetched
+SRR7716424	DSM267-F2-2-E8	DSM267	ecDNA_discovery	3D7	3D7	83.9	0.00218	0.0566	26	Mandt2019	high-dose-intermittent	HiSeq2500	the 1/8 CNV+ in Luth Data S4
+SRR7716426	DSM267-F3-2-G9	DSM267	ecDNA_discovery	3D7	3D7	82.0	0.00218	0.500	229	Mandt2019	high-dose-intermittent	HiSeq2500	
+SRR5161081	MMV019662-MDTIP4-1-C4	MMV019662	ecDNA_discovery	3D7	3D7	86.5	0.291	10.000	34	Cowell2018	step-wise	HiSeq2500	
+SRR5161085	MMV019662-MDTIP4-1F4	MMV019662	ecDNA_discovery	3D7	3D7	85.0	0.291	5.009	17	Cowell2018	step-wise	HiSeq2500	
+SRR5161086	MMV019662-MDTIP4-1F9	MMV019662	ecDNA_discovery	3D7	3D7	132.1	0.291	4.798	16	Cowell2018	step-wise	HiSeq2500	
+SRR5161088	MMV019662-MDTIP4-2-B6	MMV019662	ecDNA_discovery	3D7	3D7	91.1	0.291	6.791	23	Cowell2018	step-wise	HiSeq2500	
+SRR5161118	MMV019662-MDTIP4-2-D6	MMV019662	ecDNA_discovery	3D7	3D7	85.0	0.291	6.791	23	Cowell2018	step-wise	HiSeq2500	
+SRR5161127	MMV019662-MDTIP4-2-F6	MMV019662	ecDNA_discovery	3D7	3D7	104.7	0.291	5.783	20	Cowell2018	step-wise	HiSeq2500	re-downloaded
+SRR5161130	MMV019662-MDTIP4-2G6	MMV019662	ecDNA_discovery	3D7	3D7	80.3	0.291	7.984	27	Cowell2018	step-wise	HiSeq2500	
+SRR5161193	MMV019662-MDTIP4-2G9	MMV019662	ecDNA_discovery	3D7	3D7	62.1	0.291	7.877	27	Cowell2018	step-wise	HiSeq2500	
+SRR5161202	MMV019662-MDTIP4-3-B6	MMV019662	ecDNA_discovery	3D7	3D7	63.6	0.291	2.260	7.8	Cowell2018	step-wise	HiSeq2500	
+SRR5161209	MMV019662-MDTIP4-3-G6	MMV019662	ecDNA_discovery	3D7	3D7	87.3	0.291	2.260	7.8	Cowell2018	step-wise	HiSeq2500	
+SRR5161217	MMV019662-MDTIP4-33X-C3	MMV019662	ecDNA_discovery	3D7	3D7	80.2	0.291	395.900	1360	Cowell2018	step-wise	HiSeq2500	OUTLIER; extreme fold-shift; no focal ecDNA signature (SNV mechanism likely)
+SRR5161219	MMV019662-MDTIP4-3C3	MMV019662	ecDNA_discovery	3D7	3D7	97.1	0.291	6.124	21	Cowell2018	step-wise	HiSeq2500	
+SRR5161234	MMV019662-MDTIP4-3F10	MMV019662	ecDNA_discovery	3D7	3D7	86.7	0.291	7.243	25	Cowell2018	step-wise	HiSeq2500	
+SRR5161261	MMV019662-MDTIP4-4-F7	MMV019662	ecDNA_discovery	3D7	3D7	111.6	0.291	2.907	10	Cowell2018	step-wise	HiSeq2500	

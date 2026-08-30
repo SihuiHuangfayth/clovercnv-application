@@ -1,0 +1,24 @@
+srr	sample_title	role	background	aligned_to	source_paper	mapping_pct	supp_pct_3D7ref	supp_pct_Dd2ref	status	exclusion_reason
+SRR3238432		PON	3D7	3D7	Cowell2018				included	
+SRR3239500		PON	3D7	3D7	Cowell2018				included	
+SRR3722054		PON	3D7	3D7	Cowell2018				included	test-run expected-negative candidate
+SRR5161062		PON	3D7	3D7	Cowell2018				included	
+SRR5161064		PON	3D7	3D7	Cowell2018				included	
+SRR5161105		PON	3D7	3D7	Cowell2018				included	
+SRR5161107		PON	3D7	3D7	Cowell2018				included	
+SRR5161111		PON	3D7	3D7	Cowell2018				included	
+SRR5161132		PON	3D7	3D7	Cowell2018				included	
+SRR5161139		PON	3D7	3D7	Cowell2018				included	
+SRR5161146		PON	3D7	3D7	Cowell2018				included	
+SRR5161167		PON	3D7	3D7	Cowell2018				included	108 kept_calls (highest); flag for post-hoc blacklist review
+SRR5161216		PON	3D7	3D7	Cowell2018				included	
+SRR5161226		PON	3D7	3D7	Cowell2018				included	
+SRR5161242		PON	3D7	3D7	Cowell2018				included	
+SRR5161245		PON	3D7	3D7	Cowell2018				included	
+SRR5161067	MALDA-Dd2Parent-1	PON	Dd2	Dd2	Cowell2018	99.98	1.22	0.35	included	
+SRR3722046	Dd2-parent	PON	Dd2	Dd2	Cowell2018	98.93	1.60	0.26	included	R1 re-downloaded
+SRR5161186	MALDA-Dd2Parent-3	PON	Dd2	Dd2	Cowell2018	100.00	1.72	0.25	included	
+SRR5161171	MALDA-Dd2Parent-6	PON	Dd2	Dd2	Cowell2018	99.89	1.80	0.23	included	
+SRR3091181	Dd2-parent	PON	Dd2	Dd2	Cowell2018	84.67	1.27	0.14	flagged	Mapping 84% (vs 99.5%+ expected); retained through CLOverCNV run pending Noah's confirmation
+SRR5161125	MALDA-Dd2Parent-9	PON	Dd2	Dd2	Cowell2018	100.00	2.37	0.09	included	
+SRR3239848	Dd2-parent	PON	Dd2	Dd2	Cowell2018	99.74	2.33	0.15	included	
