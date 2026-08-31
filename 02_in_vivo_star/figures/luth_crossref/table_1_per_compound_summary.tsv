@@ -1,0 +1,5 @@
+compound	n_luth_cnvs_checked	n_ratio_detected	n_keep_suggested_any	ratio_recall_rate	keep_suggested_recall_rate	median_max_ratio_in_luth_region
+Suloctidil	13	13	13	1.0	1.0	3.145
+MMV006901	14	11	1	0.786	0.071	1.885
+MMV019662	13	11	6	0.846	0.462	1.624
+DSM267	1	1	0	1.0	0.0	1.865
