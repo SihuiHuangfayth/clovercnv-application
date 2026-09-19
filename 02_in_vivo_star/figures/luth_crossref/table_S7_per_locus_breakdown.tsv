@@ -1,0 +1,9 @@
+compound	locus_type	chromosome	region_start_Mb	region_end_Mb	target_gene_or_region	n_cnvs	n_unique_clones	biology_note
+Suloctidil	Main target locus (published)	chr05	0.888	0.949	PfMDR1 (PF3D7_0523000)	10	10	Drug target: ABC transporter (MDR)
+Suloctidil	Secondary locus	chr12	1.55	1.55	PF3D7_1237200	1	1	Requires further annotation; possible off-target amplification, secondary resistance mechanism, or artifact
+Suloctidil	Secondary locus	chr13	1.879	1.879	PF3D7_1346800	2	2	Requires further annotation; possible off-target amplification, secondary resistance mechanism, or artifact
+MMV006901	Main target locus (published)	chr03	0.803	0.865	PfABCI3 (PF3D7_0319700)	11	8	Drug target: ABC transporter (multidrug)
+MMV006901	Secondary locus	chr06	0.463	0.463	PF3D7_0611000	3	3	Requires further annotation; possible off-target amplification, secondary resistance mechanism, or artifact
+MMV019662	Main target locus (published)	chr01	0.265	0.344	PfNCR1 (PF3D7_0107500)	10	9	Drug target: Cholesterol transporter (lipid homeostasis)
+MMV019662	Secondary locus	chr12	1.746	1.746	PF3D7_1241100	3	3	Requires further annotation; possible off-target amplification, secondary resistance mechanism, or artifact
+DSM267	Main target locus (published)	chr06	0.078	0.078	PfDHODH (PF3D7_0603300)	1	1	Drug target: Dihydroorotate dehydrogenase (pyrimidine synthesis)
