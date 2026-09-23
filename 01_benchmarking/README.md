@@ -162,17 +162,14 @@ BAMSurgeon fails silently in low-complexity regions of the AT-rich *P. falciparu
 2. **Post-simulation depth verification** (Stage 3) — via `check_mimic_signal.py`, which fails the SLURM job if any ecDNA event lacks expected fold-change signal
 3. **Empirical survival rate** — of 100 requested samples, 18 survived full QC (survivals numbered 13-87). Per-sample, requesting ~14 SVs typically yielded ~4 spiked survivors. Total truth-set count: 74 (69 synthetic + 5 endogenous).
 
-**For manuscript methods**: this survival rate should be reported explicitly. Reviewers will ask "why only 18 samples?" — the answer is "because BAMSurgeon's silent-drop rate on this genome required post-hoc verification, and we retained only variants whose spiking was empirically confirmed."
+**For manuscript methods**: Only 18 samples because BAMSurgeon's silent-drop rate on this genome required post-hoc verification, and we retained only variants whose spiking was empirically confirmed.
 
 ---
 
-## Open questions / follow-ups
+## Open questions
 
-- [ ] **Reconcile `--maxdepth` value** between methods draft (20000) and SLURM script (50000)
 - [ ] **Stratify results by variant class**: F1/Precision/Recall separately for standard CNV (CN=2, CN=0) vs ecDNA-like (CN≥5). Truth set has both; current eval collapses them.
 - [ ] **Add per-tool ecDNA-specific classification metric**: CLOverCNV outputs a `direction` and support-tier column that ExomeDepth/CNVnator lack — this is CLOverCNV's differentiating capability but is not exercised in the current F1 comparison.
-- [ ] **Investigate CLOverCNV persistent FNs**: `CLOverCNV_Persistent_FN_0.1.csv` shows what's missed even at loose overlap threshold. Are they preferentially short DELs? In specific chromosome regions?
-- [ ] **Provenance link**: which V3 numbers ended up in the paper? Timestamp `Multi_Threshold_Report_Full.csv` (Apr 13 2026) matches paper deadline — likely this is the final. Confirm with Noah.
 
 ---
 
