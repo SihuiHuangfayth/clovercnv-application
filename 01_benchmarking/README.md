@@ -164,12 +164,6 @@ BAMSurgeon fails silently in low-complexity regions of the AT-rich *P. falciparu
 
 **For manuscript methods**: Only 18 samples because BAMSurgeon's silent-drop rate on this genome required post-hoc verification, and we retained only variants whose spiking was empirically confirmed.
 
----
-
-## Open questions
-
-- [ ] **Stratify results by variant class**: F1/Precision/Recall separately for standard CNV (CN=2, CN=0) vs ecDNA-like (CN≥5). Truth set has both; current eval collapses them.
-- [ ] **Add per-tool ecDNA-specific classification metric**: CLOverCNV outputs a `direction` and support-tier column that ExomeDepth/CNVnator lack — this is CLOverCNV's differentiating capability but is not exercised in the current F1 comparison.
 
 ---
 
