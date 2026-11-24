@@ -173,7 +173,7 @@ BAMSurgeon fails silently in low-complexity regions of the AT-rich *P. falciparu
 
 ---
 
-## Data paths (on Rivanna, not tracked in this repo)
+## Data paths (Rivanna)
 
 ```
 /home/gaz6bs/archive/mimic_data/
