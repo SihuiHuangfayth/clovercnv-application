@@ -1,10 +1,5 @@
 #!/usr/bin/env python
 """
-generate_locus_breakdown.py
-
-Generate per-locus breakdown deliverables that directly address Jenny's
-1-on-1 feedback: "13 CNVs in 10 lines — but distributed across how many loci?"
-
 Output:
   - Table S7 (per-locus breakdown TSV/CSV) 
   - Figure 3: per-compound per-locus stacked bar (detailed + slide versions)
@@ -155,7 +150,7 @@ def write_table_s7(df):
         sub = df[df["compound"] == compound]
         total = sub["n_cnvs"].sum()
         for _, r in sub.iterrows():
-            marker = "◉" if "Main" in r["locus_type"] else "○"
+            marker = "1" if "Main" in r["locus_type"] else "0"
             print(f"  {marker} {r['chromosome']:6} {r['region_start_Mb']:.2f}-{r['region_end_Mb']:.2f} Mb  |  {r['target_gene_or_region']:35}  |  {r['n_cnvs']} CNVs")
         print(f"  Total: {total} CNVs across {len(sub)} loci")
 
