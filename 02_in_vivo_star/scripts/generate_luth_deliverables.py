@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 """
 generate_luth_deliverables_v2.py
-
-Fixed version of Luth correspondence figure generation:
-  - Figure 1: Widened + increased bar spacing to prevent x-label collision
-  - Figure 2: Rebalanced layout (narrower gene labels, wider heatmap strip,
-              colorbar closer)
-  - Table 1: Widened keep_suggested column so header doesn't truncate
-
 Run:
     conda activate CLOverCNV
     python generate_luth_deliverables_v2.py
