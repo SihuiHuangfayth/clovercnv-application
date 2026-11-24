@@ -1,6 +1,6 @@
 # Benchmarking (BAMSurgeon-based simulation)
 
-Benchmarking of CLOverCNV against CNVnator and ExomeDepth using synthetic CNV/ecDNA spiked into a *P. falciparum* Dd2 baseline BAM. This section contributes to **Figure 2 (Panel F)** of the CLOver manuscript.
+Benchmarking of CLOverCNV against CNVnator and ExomeDepth using synthetic CNV/ecDNA spiked into a *P. falciparum* Dd2 baseline BAM.
 
 ---
 
@@ -134,7 +134,7 @@ See Multi_Threshold_Report_Full.csv: CLOverCNV F1 climbs from 0.338 (threshold 0
 
 ---
 
-## Headline results (V3, from Multi_Threshold_Report_Full.csv)
+## Headline results (from Multi_Threshold_Report_Full.csv)
 
 At reciprocal overlap threshold = 0.1 (primary criterion):
 
@@ -144,13 +144,7 @@ At reciprocal overlap threshold = 0.1 (primary criterion):
 | CNVnator | 41 | 9673 | 33 | 0.004 | 0.554 | 0.008 |
 | ExomeDepth | 53 | 14 | 21 | 0.791 | 0.716 | 0.752 |
 
-**Interpretation notes for manuscript**:
-- CLOverCNV has the **highest precision (0.89)** — 2× fewer FPs than ExomeDepth
-- ExomeDepth is a close F1 competitor (0.75 vs 0.77) — the differentiator is precision, not F1
-- CNVnator produces ~9700 FPs — two orders of magnitude worse. Not a viable tool for *P. falciparum* CNV calling with default parameters.
-- **Not yet stratified**: performance on ecDNA-like (CN>1) subset vs standard CNVs. Stratification likely reveals CLOverCNV's unique advantage. Consider adding this analysis before submission.
-
-Plateau behavior: CLOverCNV F1 plateaus at threshold ≤ 0.05 (F1=0.785); ExomeDepth continues improving marginally to 0.780 at threshold=0.001.
+CLOverCNV F1 plateaus at threshold ≤ 0.05 (F1=0.785); ExomeDepth continues improving marginally to 0.780 at threshold=0.001.
 
 ---
 
@@ -162,7 +156,7 @@ BAMSurgeon fails silently in low-complexity regions of the AT-rich *P. falciparu
 2. **Post-simulation depth verification** (Stage 3) — via `check_mimic_signal.py`, which fails the SLURM job if any ecDNA event lacks expected fold-change signal
 3. **Empirical survival rate** — of 100 requested samples, 18 survived full QC (survivals numbered 13-87). Per-sample, requesting ~14 SVs typically yielded ~4 spiked survivors. Total truth-set count: 74 (69 synthetic + 5 endogenous).
 
-**For manuscript methods**: Only 18 samples because BAMSurgeon's silent-drop rate on this genome required post-hoc verification, and we retained only variants whose spiking was empirically confirmed.
+Only 18 samples because BAMSurgeon's silent-drop rate on this genome required post-hoc verification, and we retained only variants whose spiking was empirically confirmed.
 
 
 ---
