@@ -3,8 +3,6 @@
 
 Analysis scripts and documentation for the benchmarking and in-vitro/real-data application of CLOverCNV.
 
-**Related to manuscript**:  (in prep). 
-
 ## Structure
 
 - `01_benchmarking/` — BAMSurgeon-based simulation benchmarking
