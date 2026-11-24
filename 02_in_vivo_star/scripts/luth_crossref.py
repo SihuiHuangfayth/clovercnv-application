@@ -2,16 +2,6 @@
 """
 luth_crossref.py — Cross-reference CLOverCNV calls with Luth 2024 Data S4 CNV list.
 
-Purpose
--------
-Jenny's meeting (2026-08-13) asked: does CLOverCNV output correspond to what Luth 2024 reported?
-"50/50 correspondence granularity is sufficient."
-
-This script uses a RATIO-BASED filter (not keep_suggested=TRUE alone), because our validation
-showed CLOverCNV's default confidence thresholds are conservative and filter out real biological
-signals — e.g., pfabci3 in MMV006901: 8/8 samples show elevated ratio, but only 1/8 passes
-keep_suggested=TRUE.
-
 Data source
 -----------
 Luth 2024 Supplementary Data 4 (NIHMS2048195), filtered to 42 CNVs across our 4 cohorts:
